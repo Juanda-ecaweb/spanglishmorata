@@ -31,6 +31,8 @@ CSS3 y un pequeño script en JavaScript vanilla. Preparada para GitHub Pages.
 ├── .github/workflows/deploy.yml   Despliegue a GitHub Pages
 ├── .nojekyll
 ├── .gitignore
+├── robots.txt                    Directivas para rastreadores
+├── sitemap.xml                   Mapa del sitio para buscadores
 └── README.md
 ```
 
@@ -117,6 +119,8 @@ se publica en GitHub Pages. Cuando el dominio esté comprado y apuntando por DNS
 3. En **Settings → Pages**, añadir el dominio personalizado y activar **Enforce HTTPS**.
 4. Actualizar en [index.html](index.html) el `<link rel="canonical">` y las URLs `og:url`,
    `og:image` y `twitter:image` para que apunten a `https://spanglishmorata.com/...`.
+5. Actualizar también las URLs de [robots.txt](robots.txt) y [sitemap.xml](sitemap.xml) (y el
+   `canonical`/JSON-LD de las páginas legales) para que apunten al dominio nuevo.
 
 ---
 
