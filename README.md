@@ -119,17 +119,15 @@ se publica en GitHub Pages. Cuando el dominio esté comprado y apuntando por DNS
 
 ## Datos pendientes de confirmar
 
-- [ ] Dirección exacta de la academia (para JSON-LD y mapa).
 - [ ] Horarios de atención.
 - [ ] Activar el dominio `spanglishmorata.com` y crear el `CNAME` (ver sección anterior).
-- [ ] Activar el email `academia@spanglishmorata.com` y publicarlo en la web cuando funcione de verdad.
 
 ## Notas de contenido
 
 - La web **no muestra precios** de forma deliberada; las tarifas se comunican por WhatsApp.
 - No se atribuyen a la profesora titulaciones ni acreditaciones no confirmadas.
-- El JSON-LD solo incluye datos verificados (localidad, provincia, teléfono).
+- El JSON-LD incluye dirección postal completa (C/ Asilo, 9 · 28530 Morata de Tajuña), teléfono y email verificados.
 - Facebook e Instagram ya enlazan a `spanglishmorata` en ambas redes.
 - El logo y la ilustración de la sección María proceden del kit de marca oficial aprobado,
   recortados/optimizados para web sin alterar el diseño.
-- El email `academia@spanglishmorata.com` aún no se muestra públicamente por no estar activo todavía.
+- El footer incluye un enlace discreto a Google Maps con la dirección (sin mapa incrustado, para no añadir peso).
