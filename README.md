@@ -104,12 +104,13 @@ gh pr view --web
 1. Pestaña **Actions** → workflow *Deploy to GitHub Pages*.
 2. Cuando el job termine en verde, la URL aparece en el paso *Deploy to GitHub Pages*
    y en **Settings → Pages**.
-3. URL prevista: <https://juanda-ecaweb.github.io/spanglishmorata/>
+3. URL técnica actual: <https://juanda-ecaweb.github.io/spanglishmorata/>.
+4. URL canónica y prevista para el dominio propio: <https://spanglishmorata.com/>.
 
-## Dominio personalizado (futuro)
+## Dominio personalizado
 
-El dominio previsto es **spanglishmorata.com**, todavía no activo. Mientras tanto, la web
-se publica en GitHub Pages. Cuando el dominio esté comprado y apuntando por DNS:
+El dominio canónico del proyecto es **spanglishmorata.com**. La web sigue alojándose
+en GitHub Pages mientras se completa la configuración del dominio personalizado:
 
 1. Crear un archivo `CNAME` (sin extensión) en la raíz del repositorio con una sola línea:
    ```
@@ -117,17 +118,16 @@ se publica en GitHub Pages. Cuando el dominio esté comprado y apuntando por DNS
    ```
 2. Configurar los registros DNS del dominio según la [documentación de GitHub Pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site).
 3. En **Settings → Pages**, añadir el dominio personalizado y activar **Enforce HTTPS**.
-4. Actualizar en [index.html](index.html) el `<link rel="canonical">` y las URLs `og:url`,
-   `og:image` y `twitter:image` para que apunten a `https://spanglishmorata.com/...`.
-5. Actualizar también las URLs de [robots.txt](robots.txt) y [sitemap.xml](sitemap.xml) (y el
-   `canonical`/JSON-LD de las páginas legales) para que apunten al dominio nuevo.
+4. Las URLs SEO de [index.html](index.html), las páginas legales, [robots.txt](robots.txt) y
+   [sitemap.xml](sitemap.xml) ya apuntan a `https://spanglishmorata.com/`.
 
 ---
 
 ## Datos pendientes de confirmar
 
 - [ ] Horarios de atención.
-- [ ] Activar el dominio `spanglishmorata.com` y crear el `CNAME` (ver sección anterior).
+- [ ] Completar la activación del dominio personalizado en el proveedor elegido y, si se mantiene
+   GitHub Pages como hosting, crear el `CNAME` y configurarlo también en **Settings → Pages**.
 
 ## Notas de contenido
 
