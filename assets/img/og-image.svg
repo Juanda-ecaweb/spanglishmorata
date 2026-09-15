@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Spanglish · Academia de Inglés en Morata de Tajuña">
+  <title>Spanglish · Academia de Inglés en Morata de Tajuña</title>
+  <rect width="1200" height="630" fill="#ffffff"/>
+  <rect x="0" y="0" width="1200" height="14" fill="#10275a"/>
+  <rect x="0" y="616" width="400" height="14" fill="#d8232a"/>
+  <rect x="400" y="616" width="400" height="14" fill="#f6c325"/>
+  <rect x="800" y="616" width="400" height="14" fill="#10275a"/>
+
+  <defs>
+    <clipPath id="ogBubble">
+      <path d="M980 120a150 150 0 1 1-84 274l-50 47 26-66A150 150 0 0 1 980 120Z"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ogBubble)" opacity="0.95">
+    <rect x="820" y="110" width="320" height="340" fill="#10275a"/>
+    <path d="M825 110 1140 450M1140 110 825 450" stroke="#ffffff" stroke-width="62"/>
+    <path d="M825 110 1140 450M1140 110 825 450" stroke="#d8232a" stroke-width="28"/>
+    <path d="M980 100v360M810 270h360" stroke="#ffffff" stroke-width="74"/>
+    <path d="M980 100v360M810 270h360" stroke="#d8232a" stroke-width="40"/>
+    <g transform="rotate(-32 980 270)">
+      <rect x="770" y="350" width="440" height="18" fill="#ffffff"/>
+      <rect x="770" y="368" width="440" height="36" fill="#d8232a"/>
+      <rect x="770" y="404" width="440" height="32" fill="#f6c325"/>
+      <rect x="770" y="436" width="440" height="36" fill="#d8232a"/>
+    </g>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="90" y="150" font-size="26" font-weight="700" letter-spacing="6" fill="#d8232a">ACADEMIA DE INGLÉS</text>
+    <text x="90" y="200" font-size="26" font-weight="700" letter-spacing="6" fill="#4d5a76">MORATA DE TAJUÑA</text>
+    <text x="90" y="300" font-size="66" font-weight="800" fill="#10275a">Shall we improve</text>
+    <text x="90" y="372" font-size="66" font-weight="800" fill="#d8232a">your English?</text>
+    <text x="90" y="440" font-size="32" font-weight="600" fill="#4d5a76">Tu inglés, con el apoyo que necesitas.</text>
+    <text x="90" y="530" font-size="54" font-weight="800" fill="#10275a">SPAN<tspan fill="#d8232a">GLISH</tspan></text>
+    <text x="90" y="572" font-size="24" font-weight="600" fill="#4d5a76">18 años ayudándote a avanzar con el inglés</text>
+  </g>
+</svg>
