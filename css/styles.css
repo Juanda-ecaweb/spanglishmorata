@@ -412,7 +412,40 @@ a:hover { color: var(--red); }
   margin-top: 2.5rem; padding-top: 1.25rem;
   border-top: 1px solid rgba(255, 255, 255, .14);
   font-size: .82rem; color: #8fa5cc;
+  display: flex; flex-wrap: wrap; gap: .5rem 1rem; justify-content: space-between; align-items: center;
 }
+.footer-legal { display: flex; gap: .5rem; flex-wrap: wrap; }
+.footer-legal a { color: #c6d4ee; }
+.footer-legal a:hover { color: var(--gold); }
+.footer-legal a[aria-current="true"] { color: var(--white); text-decoration: underline; }
+.footer-legal span { color: #56699a; }
+
+/* ---------- Páginas legales ---------- */
+.legal-hero {
+  padding: clamp(2.5rem, 6vw, 4rem) 0 1rem;
+}
+.legal-hero .section-title { max-width none; }
+.legal-updated {
+  font-size: .85rem; color: var(--ink-mute);
+}
+.legal-content {
+  padding: 1rem 0 clamp(3rem, 6vw, 5rem);
+}
+.legal-content .wrap { max-width: 72ch; }
+.legal-content h2 {
+  font-size: 1.35rem; margin-top: 2.4rem; padding-top: 1.4rem;
+  border-top: 1px solid var(--line);
+}
+.legal-content h2:first-child { margin-top: 0; padding-top: 0; border-top: 0; }
+.legal-content h3 {
+  font-size: 1.05rem; margin-top: 1.6rem; color: var(--navy);
+}
+.legal-content p, .legal-content li { color: var(--ink-mute); }
+.legal-content ul { margin: 0 0 1rem; padding-left: 1.2rem; list-style: disc; }
+.legal-content li { margin-bottom: .4rem; }
+.legal-content strong { color: var(--navy); }
+.legal-content a { text-decoration: underline; }
+.legal-back { margin-top: 2.5rem; }
 
 /* ---------- WhatsApp flotante ---------- */
 .wa-float {

@@ -12,6 +12,9 @@ CSS3 y un pequeño script en JavaScript vanilla. Preparada para GitHub Pages.
 ```
 /
 ├── index.html                  Landing completa (una sola página)
+├── aviso-legal.html             Aviso legal
+├── privacidad.html              Política de privacidad
+├── cookies.html                 Política de cookies
 ├── css/
 │   └── styles.css              Estilos, mobile-first
 ├── js/
@@ -131,3 +134,5 @@ se publica en GitHub Pages. Cuando el dominio esté comprado y apuntando por DNS
 - El logo y la ilustración de la sección María proceden del kit de marca oficial aprobado,
   recortados/optimizados para web sin alterar el diseño.
 - El footer incluye un enlace discreto a Google Maps con la dirección (sin mapa incrustado, para no añadir peso).
+- El sitio no usa analítica, publicidad, mapas ni vídeos embebidos, ni fuentes externas: no requiere banner de cookies. Ver [cookies.html](cookies.html) para el detalle.
+- El NIF de la titular (50880718A) solo aparece en [aviso-legal.html](aviso-legal.html), no en el footer comercial.
