@@ -18,11 +18,13 @@ CSS3 y un pequeño script en JavaScript vanilla. Preparada para GitHub Pages.
 │   └── main.js                 Menú móvil, sección activa y año del footer
 ├── assets/
 │   ├── img/
-│   │   ├── logo-spanglish.svg      Logo horizontal (provisional)
-│   │   ├── isotipo-spanglish.svg   Isotipo usado en la cabecera
-│   │   └── og-image.svg            Imagen para redes sociales
+│   │   ├── logo-spanglish.png        Logo oficial completo (icono + wordmark)
+│   │   ├── logo-spanglish-icon.png   Icono oficial usado en la cabecera
+│   │   ├── maria-ilustración.png     Ilustración lineal oficial (sección María)
+│   │   └── og-image.png              Imagen 1200×630 para redes sociales
 │   └── icons/
-│       └── favicon.svg
+│       ├── favicon-32.png
+│       └── apple-touch-icon.png
 ├── .github/workflows/deploy.yml   Despliegue a GitHub Pages
 ├── .nojekyll
 ├── .gitignore
@@ -99,22 +101,35 @@ gh pr view --web
    y en **Settings → Pages**.
 3. URL prevista: <https://juanda-ecaweb.github.io/spanglishmorata/>
 
+## Dominio personalizado (futuro)
+
+El dominio previsto es **spanglishmorata.com**, todavía no activo. Mientras tanto, la web
+se publica en GitHub Pages. Cuando el dominio esté comprado y apuntando por DNS:
+
+1. Crear un archivo `CNAME` (sin extensión) en la raíz del repositorio con una sola línea:
+   ```
+   spanglishmorata.com
+   ```
+2. Configurar los registros DNS del dominio según la [documentación de GitHub Pages](https://docs.github.com/pages/configuring-a-custom-domain-for-your-github-pages-site).
+3. En **Settings → Pages**, añadir el dominio personalizado y activar **Enforce HTTPS**.
+4. Actualizar en [index.html](index.html) el `<link rel="canonical">` y las URLs `og:url`,
+   `og:image` y `twitter:image` para que apunten a `https://spanglishmorata.com/...`.
+
 ---
 
 ## Datos pendientes de confirmar
 
-- [ ] Logo definitivo en SVG/PNG (los actuales son una reconstrucción provisional).
-- [ ] Foto de María (hoy se muestra un círculo con sus iniciales).
-- [ ] URL real de Facebook.
-- [ ] URL real de Instagram.
 - [ ] Dirección exacta de la academia (para JSON-LD y mapa).
 - [ ] Horarios de atención.
-- [ ] Email de contacto (hoy no se muestra).
-- [ ] Dominio propio definitivo (requiere `CNAME` y actualizar `canonical` y Open Graph).
-- [ ] Exportar `og-image.svg` a PNG 1200×630 (algunas redes no leen SVG).
+- [ ] Activar el dominio `spanglishmorata.com` y crear el `CNAME` (ver sección anterior).
+- [ ] Activar el email `academia@spanglishmorata.com` y publicarlo en la web cuando funcione de verdad.
 
 ## Notas de contenido
 
 - La web **no muestra precios** de forma deliberada; las tarifas se comunican por WhatsApp.
 - No se atribuyen a la profesora titulaciones ni acreditaciones no confirmadas.
 - El JSON-LD solo incluye datos verificados (localidad, provincia, teléfono).
+- Facebook e Instagram ya enlazan a `spanglishmorata` en ambas redes.
+- El logo y la ilustración de la sección María proceden del kit de marca oficial aprobado,
+  recortados/optimizados para web sin alterar el diseño.
+- El email `academia@spanglishmorata.com` aún no se muestra públicamente por no estar activo todavía.
